@@ -9,7 +9,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 The full text of the GNU General Public License can be found in the file "LICENSE.txt".
 
 
-# Dependenciy
+# Dependency
 
 MATLAB 2017b or later.
 
