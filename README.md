@@ -11,7 +11,6 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 # Dependency
 
-MATLAB 2017b or later.
 
 In the power grid control problem, Matpower 6.0 https://matpower.org/download/ is used for power flow calculation.
 
