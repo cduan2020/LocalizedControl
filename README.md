@@ -9,7 +9,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 The full text of the GNU General Public License can be found in the file "LICENSE.txt".
 
 
-# Dependencies
+# Dependenciy
 
 MATLAB 2017b or later.
 
@@ -26,12 +26,12 @@ Wup=InfoDistanceUpperbdd(P) Caculate the upperbound of information distance matr
 
 driverplacement.m An exmaple of the gradient-based greedy algorithm for driverplacement on a BA random network with Lapacian dynamics.
 
-run_kuromoto_control.m An exmaple of local control design and dynamical simulation of Kuramoto oscillator network.
+run_kuromoto_control.m an exmaple of local control design and dynamical simulation of Kuramoto oscillator network.
 
-run_power_control.m An exmaple of local control design and dynamical simulation of power grid.
+run_power_control.m an exmaple of local control design and dynamical simulation of power grid.
 
-run_epidemic_control.m An exmaple of local control design and dynamical simulation of epidemics over airline transportation network.
+run_epidemic_control.m an exmaple of local control design and dynamical simulation of epidemics over airline transportation network.
 
-run_brain_control.m An exmaple of local control design and dynamical simulation of brain network.
+run_brain_control.m an exmaple of local control design and dynamical simulation of brain network.
 
 
