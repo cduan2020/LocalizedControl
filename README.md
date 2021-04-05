@@ -19,17 +19,17 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 Wup = InfoDistanceUpperbdd(P): Caculate the upper bound on the information distance matrix from the system coupling matrix P.
 
-[nlist, dlist] = ucs_geodesic_k(Wup,i,k): Calculate the information neighborhood of size k centered at node i. The output nlist is the node list of the information neighborhood and dlist is the corresponding list of information distances.
+[nlist, dlist] = ucs_geodesic_k(Wup,i,k): Calculate the information neighborhood of size k centered at node i. The output nlist is the node list for the information neighborhood, and dlist is the corresponding list of information distances.
 
-[nlist, dlist] = ucs_geodesic_tau(Wup,i,tau): Calculate the information neighborhood of information radius tau centered at node i. nlist is the node list of the information neighborhood and dlist is the corresponding list of information distances.
+[nlist, dlist] = ucs_geodesic_tau(Wup,i,tau): Calculate the information neighborhood of radius tau centered at node i. The output nlist is the node list for the information neighborhood, and dlist is the corresponding list of information distances.
 
-driverplacement.m: An exmaple of the gradient-based greedy algorithm for driverplacement on a BA random network with Lapacian dynamics.
+driverplacement.m: An exmaple of applying the gradient-based greedy algorithm for driver placement (Algorithm 2) to a BA random network with Laplacian dynamics.
 
-run_kuromoto_control.m: An exmaple of local control design and dynamical simulation of Kuramoto oscillator network.
+run_kuromoto_control.m: An exmaple of local control design and dynamical simulation for a Kuramoto oscillator network.
 
-run_power_control.m: An exmaple of local control design and dynamical simulation of power grid.
+run_power_control.m: An exmaple of local control design and dynamical simulation for the dynamics of a power-grid network.
 
-run_epidemic_control.m: An exmaple of local control design and dynamical simulation of epidemics over airline transportation network.
+run_epidemic_control.m: An exmaple of local control design and dynamical simulation for epidemic spreading dynamics over the global airline transportation network.
 
 run_brain_control.m: An exmaple of local control design and dynamical simulation of brain network.
 
