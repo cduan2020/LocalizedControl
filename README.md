@@ -27,7 +27,7 @@ driverplacement.m: An exmaple of applying the gradient-based greedy algorithm fo
 
 run_kuromoto_control.m: An exmaple of local control design and dynamical simulation for a Kuramoto oscillator network.
 
-run_power_control.m: An exmaple of local control design and dynamical simulation for the dynamics of a power-grid network.
+run_power_control.m: An exmaple of local control design and dynamical simulation for the dynamics of a synthetic Texas power grid.
 
 run_epidemic_control.m: An exmaple of local control design and dynamical simulation for epidemic spreading dynamics over the global airline transportation network.
 
