@@ -17,7 +17,7 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 # Usage
 
-Wup = InfoDistanceUpperbdd(P): Caculate the upper bound on the information distance matrix from the system coupling matrix P.
+Wup = InfoDistanceUpperbdd(normA): Caculate the upper bound on the information distance matrix from the system coupling matrix normA.
 
 [nlist, dlist] = ucs_geodesic_k(Wup,i,k): Calculate the information neighborhood of size k centered at node i. The output nlist is the node list for the information neighborhood, and dlist is the corresponding list of information distances.
 
