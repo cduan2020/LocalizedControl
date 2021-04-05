@@ -25,12 +25,12 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 `driverplacement.m`: An exmaple of applying the gradient-based greedy algorithm for driver placement (Algorithm 2) to a BA random network with Laplacian dynamics.
 
-run_kuromoto_control.m: An exmaple of local control design and dynamical simulation for a Kuramoto oscillator network.
+`Kuromoto`: Folder containing code for local control design and dynamical simulation on a Kuramoto oscillator network.
 
-run_power_control.m: An exmaple of local control design and dynamical simulation for the dynamics of a synthetic Texas power grid.
+`Power grid`: Folder containing code for local control design and dynamical simulation on the dynamics of a synthetic Texas power grid.
 
-run_epidemic_control.m: An exmaple of local control design and dynamical simulation for epidemic spreading dynamics over the global airline transportation network.
+`Epidemics`: Folder containing code for local control design and dynamical simulation on the epidemic spreading dynamics over the global airline transportation network.
 
-Brainnet: Folder containing code for local control design and dynamical simulation on the brain network.
+`Brainnet`: Folder containing code for local control design and dynamical simulation on the whole brain network.
 
 
