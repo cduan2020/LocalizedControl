@@ -12,7 +12,7 @@ if tau==0
 end
 
 n = size(W,1);
-openset = PriorityQueue2(n);
+openset = PriorityQueue(n);
 
 nlist=NaN(1,1000);
 dlist=NaN(1,1000);
