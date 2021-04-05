@@ -17,7 +17,7 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 # Usage
 
-Wup = InfoDistanceUpperbdd(normA): Caculate the upper bound on the information distance matrix from the system coupling matrix normA.
+Wup = InfoDistanceUpperbdd(normA): Caculate the upper bound on the information distance matrix from the norm of the blocks of the system coupling matrix A (i.e., normA(i,j) = norm(A_{ij})).
 
 [nlist, dlist] = ucs_geodesic_k(Wup,i,k): Calculate the information neighborhood of size k centered at node i. The output nlist is the node list for the information neighborhood, and dlist is the corresponding list of information distances.
 
@@ -31,6 +31,6 @@ run_power_control.m: An exmaple of local control design and dynamical simulation
 
 run_epidemic_control.m: An exmaple of local control design and dynamical simulation for epidemic spreading dynamics over the global airline transportation network.
 
-run_brain_control.m: An exmaple of local control design and dynamical simulation of brain network.
+Brainnet: Folder containing code for local control design and dynamical simulation on the brain network.
 
 
