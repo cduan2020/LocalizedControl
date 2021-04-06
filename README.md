@@ -22,13 +22,13 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics. (Run time: ~1 min)
 
-* `run_kuramoto_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files. `newtonraphson.m` in this folder was obtained from: asmaa lakhdar (2021). newtonraphson (https://www.mathworks.com/matlabcentral/fileexchange/87884-newtonraphson), MATLAB Central File Exchange. (Run time: ~1 min)
+* `run_kuramoto_control.m` runs the local control design algorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files. `newtonraphson.m` in this folder was obtained from: asmaa lakhdar (2021). newtonraphson (https://www.mathworks.com/matlabcentral/fileexchange/87884-newtonraphson), MATLAB Central File Exchange. (Run time: ~1 min)
 
-* `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid (`case_ACTIVSg2000.m`, obtained from https://electricgrids.engr.tamu.edu). The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files. (Run time: ~2 min)
+* `run_power_control.m` runs the local control design algorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid (`case_ACTIVSg2000.m`, obtained from https://electricgrids.engr.tamu.edu). The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files. (Run time: ~2 min)
 
-* `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. (Run time: ~22 min)
+* `run_epidemic_control.m` runs the local control design algorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. (Run time: ~22 min)
 
-* `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. (Run time: ~3.5 min)
+* `run_brain_control.m` runs the local control design algorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. (Run time: ~3.5 min)
 
 ### Utility functions:
 
@@ -42,8 +42,8 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `averge_neighborhood_rate = average_k_rate(normA,k)` calculates the average `k`th neighbor reduction rate of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.
 
-* `PriorityQueue.m` provides the priorigy queue data structure used in the USC algorithm (Algorithm 1).
+* `PriorityQueue.m` provides the priority queue data structure used in the USC algorithm (Algorithm 1).
 
-* `ba_net.m` generates BA random networks. This code was obtaind from: Gregorio Alanis-Lobato (2021). CNM (https://www.mathworks.com/matlabcentral/fileexchange/45734-cnm), MATLAB Central File Exchange.
+* `ba_net.m` generates BA random networks. This code was obtained from: Gregorio Alanis-Lobato (2021). CNM (https://www.mathworks.com/matlabcentral/fileexchange/45734-cnm), MATLAB Central File Exchange.
 
 
