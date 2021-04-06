@@ -23,7 +23,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `run_kuramoto_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files. `newtonraphson.m` in this folder was obtained from: asmaa lakhdar (2021). newtonraphson (https://www.mathworks.com/matlabcentral/fileexchange/87884-newtonraphson), MATLAB Central File Exchange.
 
-* `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid. The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files.
+* `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid (case_ACTIVSg2000.m obtained from https://electricgrids.engr.tamu.edu). The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files.
 
 * `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox.
 
