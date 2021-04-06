@@ -45,6 +45,6 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `er_net.m` generates Erdős–Rényi (ER) random networks.
 
-* `ba_net.m` generates BA random networks. **Orginal source:** Gregorio Alanis-Lobato (2021). CNM (https://www.mathworks.com/matlabcentral/fileexchange/45734-cnm), MATLAB Central File Exchange.
+* `ba_net.m` generates BA random networks. This code was obtaind from: Gregorio Alanis-Lobato (2021). CNM (https://www.mathworks.com/matlabcentral/fileexchange/45734-cnm), MATLAB Central File Exchange.
 
 
