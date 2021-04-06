@@ -44,7 +44,7 @@ end
 k=cell(nc,1);
 for i=1:nc
     k{i}=DesignLocalContrl(AA{i},BB{i},QQ{i},RR{i},Cset_aug0{i},Cset_aug{i},bloc(i),2*ng);
-    disp(['system _local_controller_' num2str(i) '_size=' num2str(Asize(i))]);
+    %disp(['system _local_controller_' num2str(i) '_size=' num2str(Asize(i))]);
 end
 Klocal=vertcat(k{:});
 
