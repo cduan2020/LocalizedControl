@@ -25,7 +25,7 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 `driverplacement.m`: An exmaple of applying the gradient-based greedy algorithm for driver placement (Algorithm 2) to a BA random network with Laplacian dynamics.
 
-`run_kuromoto_control.m`: run the example for the control of Kuramoto oscillator.<br/>
+`run_kuromoto_control.m`: run the example for the control of the network of Kuramoto oscillators.<br/>
 `Kuromoto`: Folder containing supporting code and data files for local control design and dynamical simulation on a Kuramoto oscillator network.
 
 `run_power_control.m`: run the example for the control of Texas power grid.<br/> 
