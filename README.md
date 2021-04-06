@@ -28,19 +28,19 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 `run_kuromoto_control.m`: run the example for the control of the network of Kuramoto oscillators.<br/>
 `Kuromoto`: Folder containing supporting code and data files for local control design and dynamical simulation on a Kuramoto oscillator network.
 
-`run_power_control.m`: run the example for the control of Texas power grid.<br/> 
+`run_power_control.m`: Run the example for the control of Texas power grid.<br/> 
 `Power grid`: Folder containing supporting code and data files for local control design and dynamical simulation on the dynamics of a synthetic Texas power grid.
 
-`run_epidemic_control.m`: run the example for the control of the epidemics spreading dynamics over the global airline transportation network.<br/> 
+`run_epidemic_control.m`: Run the example for the control of the epidemics spreading dynamics over the global airline transportation network.<br/> 
 `Epidemics`: Folder containing supporting code and data files for local control design and dynamical simulation on the epidemic spreading dynamics over the global airline transportation network.
 
-`run_brain_control.m`: run the example for the control of the whole brain network.<br/> 
+`run_brain_control.m`: Run the example for the control of the whole brain network.<br/> 
 `Brainnet`: Folder containing supporting code and data files for local control design and dynamical simulation on the whole brain network.
 
 Other unitility functions：<br/>
-`k=DesignLocalContrl(A,B,Q,R,Cset_aug0,Cset_aug,i,n)`: design local optimal controller at node i by solving the prejected Riccati equation (subroutine of Algorithm 3).<br/>
-`averge_neighborhood_rate = average_k_rate(normA,k)`: calculate the average kth neighbor reduction rate of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.<br/>
-`PriorityQueue.m`: the priorigy queue data structure used in the USC algorithm (Algorithm 1).<br/>
-`er_net.m`: generate ER random networks.<br/>
-`ba_net.m`: generate BA random networks.<br/>
+`k=DesignLocalContrl(A,B,Q,R,Cset_aug0,Cset_aug,i,n)`: Design local optimal controller at node i by solving the prejected Riccati equation (subroutine of Algorithm 3).<br/>
+`averge_neighborhood_rate = average_k_rate(normA,k)`: Calculate the average kth neighbor reduction rate of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.<br/>
+`PriorityQueue.m`: The priorigy queue data structure used in the USC algorithm (Algorithm 1).<br/>
+`er_net.m`: Generate ER random networks.<br/>
+`ba_net.m`: Generate BA random networks.<br/>
 
