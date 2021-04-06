@@ -137,3 +137,11 @@ for kk=1:length(mineig_vec)
     mineig_vec(kk) = min(eig(Wc));
 end
 
+
+figure(1);
+histogram(mineig_vec);
+hold on;
+plot([mineig_opt mineig_opt],[0 100],'r-','LineWidth',3);
+
+
+
