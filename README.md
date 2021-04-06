@@ -17,7 +17,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 # Usage
 
-**Scripts for example applications:**
+### Scripts for example applications:
 
 * `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics.
 
@@ -29,7 +29,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox.
 
-**Utility functions:**
+### Utility functions:
 
 * `Wup = InfoDistanceUpperbdd(normA)` calculates the upper bound on the information distance matrix from the norm of the blocks of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.
 
