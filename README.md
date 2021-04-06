@@ -12,7 +12,7 @@ The full text of the GNU General Public License can be found in the file "LICENS
 # Dependency
 
 
-In the power grid control example (see below), Matpower 6.0 (https://matpower.org/download/) is used for power flow calculation.
+In the power grid control example (see below), Matpower 6.0 (https://matpower.org/download/) is used for power flow calculation. Control design computation requires MATLAB Control System Toolbox, and some of the application examples leverage MATLAB Parallel Computing Toolbox.
 
 
 # Usage
