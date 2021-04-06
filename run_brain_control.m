@@ -90,28 +90,13 @@ end
 
 plot_num=7;
 
-figure(2);
+figure;
 ts = (0:N).'*dt;
-subplot(2,1,1);
-plot(ts,xs_h(:,plot_num)); title('\delta (radians)'); hold on;
-subplot(2,1,2);
-plot(ts,xs_h(:,n+plot_num)/(2*pi)); title('\omega (Hz)'); hold on;
-
-
-figure(2);
-ts = (0:N).'*dt;
-subplot(2,1,1);
-plot(ts,xs_pc(:,plot_num)); title('\delta (radians)'); hold on;
-subplot(2,1,2);
-plot(ts,xs_pc(:,n+plot_num)/(2*pi)); title('\omega (Hz)'); hold on;
-
-
-figure(2);
-ts = (0:N).'*dt;
-subplot(2,1,1);
-plot(ts,xs_p(:,plot_num)); title('\delta (radians)'); hold on;
-subplot(2,1,2);
-plot(ts,xs_p(:,n+plot_num)/(2*pi)); title('\omega (Hz)'); hold on;
+plot(ts,xs_h(:,plot_num)); hold on;
+plot(ts,xs_p(:,plot_num)); hold on;
+plot(ts,xs_pc(:,plot_num)); hold on;
+ylabel('x (mV)');
+xlabel('time (s)');
 
 end
 
