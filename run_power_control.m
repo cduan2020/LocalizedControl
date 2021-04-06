@@ -2,7 +2,7 @@
 % with a openly avaiable test system from https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg2000/
 
 clear;clc;
-addpath('.\Power grid');
+addpath(['.' filesep 'Power grid']);
 
 
 mpc=loadcase('case_ACTIVSg2000');

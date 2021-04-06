@@ -2,8 +2,7 @@
 % Local control design and dynamical simulation of epidemics.
 
 clear;clc;
-addpath('.\Epidemics');
-
+addpath(['.' filesep 'Epidemics']);
 
 radius = 10;
 

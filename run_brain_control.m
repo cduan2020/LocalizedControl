@@ -2,8 +2,7 @@
 % Local control design and dynamical simulation of brain network
 
 clear;clc;
-addpath('.\Brainnet');
-
+addpath(['.' filesep 'Brainnet']);
 
 
 %% Data Preparation

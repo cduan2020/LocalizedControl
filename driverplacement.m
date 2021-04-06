@@ -5,7 +5,7 @@ clear;
 clc;
 rng('default');
 
-n=1000;
+n=500;
 
 
 % Generate network model
@@ -18,7 +18,7 @@ L=spdiags(-degree,0,A)-eye(n)*0.1;
 
 
 % Size of information neighborhood
-k=30;
+k=20;
 
 tic;
 Wup=InfoDistanceUpperbdd(L);
@@ -60,7 +60,7 @@ end
 Worstnodes=1:kw;
 
 lamtarget=0.05;
-dmax=950;
+dmax=0.95*n;
 
 %% Loop
 iter=1;
