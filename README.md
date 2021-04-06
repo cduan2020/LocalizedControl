@@ -19,7 +19,7 @@ In the power grid control example (see below), Matpower 6.0 (https://matpower.or
 
 **Scripts for example applications:**
 
-* `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a BA random network with Laplacian dynamics.
+* `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics.
 
 * `run_kuromoto_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files.
 
@@ -43,7 +43,7 @@ In the power grid control example (see below), Matpower 6.0 (https://matpower.or
 
 * `PriorityQueue.m` provides the priorigy queue data structure used in the USC algorithm (Algorithm 1).
 
-* `er_net.m` generates ER random networks.
+* `er_net.m` generates Erdős–Rényi (ER) random networks.
 
 * `ba_net.m` generates BA random networks.
 
