@@ -33,7 +33,7 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 * `run_brain_control.m`: Run the example for the control of the whole brain network.<br/> 
 `Brainnet`: Folder containing supporting code and data files for local control design and dynamical simulation on the whole brain network.
 
-**Utility functions**
+**Utility functions:**
 
 * `Wup = InfoDistanceUpperbdd(normA)`: Caculate the upper bound on the information distance matrix from the norm of the blocks of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.
 
