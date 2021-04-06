@@ -18,6 +18,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 # Usage
 
 ### Scripts for example applications:
+Note: Indicated run times were measured on a desktop computer (Intel i7-7700K, 4 cores, 16G RAM).
 
 * `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics.
 
@@ -25,9 +26,9 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid (`case_ACTIVSg2000.m`, obtained from https://electricgrids.engr.tamu.edu). The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files.
 
-* `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. Running this code took about 22 min on a desktop computer (Intel i7-7700K, 4 cores, 16G RAM).
+* `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. Run time: ~22 min
 
-* `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. Running this code took about 3.5 min on a desktop computer (Intel i7-7700K, 4 cores, 16G RAM).
+* `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox. Run time: ~3.5 min
 
 ### Utility functions:
 
