@@ -60,7 +60,8 @@ HH= Emat-alpha*eye(nb);
 %==========================================================================
 % take part of the network for illustration purpose
 % comment out this block to use the whole network
-Index = find(contains(airp_uniq_new(:,6),'United States'));
+% Index = find(contains(airp_uniq_new(:,6),'United States'));
+Index=strmatch('''United States''',airp_uniq_new(:,6));
 nb = length(Index);
 Emat = Emat(Index,Index);
 HH = HH(Index,Index);
