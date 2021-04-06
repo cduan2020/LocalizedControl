@@ -18,7 +18,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 # Usage
 
 ### Scripts for example applications:
-(Note: The run times for these examples were measured on a desktop computer with Intel i7-7700K / 4 cores / 16GB RAM).
+(Note: The run times for these examples were measured on a desktop computer with Intel i7-7700K / 4 cores / 16GB RAM.)
 
 * `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics. (Run time: ~1 min)
 
