@@ -1,3 +1,4 @@
+function run_epidemic_control
 
 % Local control design and dynamical simulation of epidemics.
 
@@ -17,7 +18,6 @@ A=zeros(nb,nb);
 for i=1:nl
     A(route_new(i,1),route_new(i,2))=A(route_new(i,1),route_new(i,2))+route_new(i,3);
 end
-
 
 
 hs_out=sum(A,2);
@@ -57,6 +57,20 @@ Emat = -diag(sum(A,2)./Nairp) + A./(Nairp*ones(1,nb));
 
 HH= Emat-alpha*eye(nb);
 
+%==========================================================================
+% take part of the network for illustration purpose
+% comment out this block to use the whole network
+Index = find(contains(airp_uniq_new(:,6),'United States'));
+nb = length(Index);
+Emat = Emat(Index,Index);
+HH = HH(Index,Index);
+S0 = S0(Index);
+I0 = I0(Index);
+beta = beta(Index);
+Nairp = Nairp(Index);
+%==========================================================================
+
+
 %% weighting matrices and sizes of SIN
 
 Q=[ones(nb,1)*10^-12; ones(nb,1)];
@@ -81,7 +95,7 @@ end
 
 
 f=@(t,x,u)epidemic_eqns(t,x,u,Emat,beta,alpha);
-dt = 1.e-1; T = 600; Num = ceil(T/dt);
+dt = 1.e-1; T = 100; Num = ceil(T/dt);
 
 xs = zeros(Num+1,2*nb);
 us = zeros(Num+1,2*nb);
@@ -114,6 +128,18 @@ for nt = 1:Num
     
 end
 
+
+figure;
+ts = (0:Num).'*dt;
+subplot(2,1,1);
+plot(ts,xs(:,1:nb)); ylabel('susceptible');
+xlabel('time (day)');
+subplot(2,1,2);
+plot(ts,xs(:,nb+1:end)); ylabel('infected');
+xlabel('time (day)');
+
+
+end
 
 
 %% ODE solvers

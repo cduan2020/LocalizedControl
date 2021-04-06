@@ -1,3 +1,5 @@
+function run_power_control
+
 % example of power system control 
 % with a openly avaiable test system from https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg2000/
 
@@ -88,12 +90,13 @@ end
 figure;
 ts = (0:N).'*dt;
 subplot(2,1,1);
-plot(ts,xs(:,1:ng)); title('\delta (radians)');
+plot(ts,xs(:,1:ng)); ylabel('\delta (radians)');
+xlabel('time (s)');
 subplot(2,1,2);
-plot(ts,xs(:,ng+1:end)/(2*pi)+60); title('\omega (Hz)');
+plot(ts,xs(:,ng+1:end)/(2*pi)+60); ylabel('\omega (Hz)');
+xlabel('time (s)');
 
-
-
+end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ODE solvers

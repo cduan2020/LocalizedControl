@@ -1,4 +1,4 @@
-
+function run_kuramoto_control
 % Local control design and dynamical simulation of Kuramoto oscillators
 
 clear;clc;
@@ -75,7 +75,10 @@ end
 
 ts = (0:Num-1).'*dt;
 plot(ts,xvec2);
+ylabel('\delta (radians)');
+xlabel('time (s)');
 
+end
 
 function x = rk4_step_ctrl(f,t,x0,u,dt)
 k1 = dt*feval(f,t,x0,u);

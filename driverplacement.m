@@ -141,7 +141,9 @@ end
 figure(1);
 histogram(mineig_vec);
 hold on;
-plot([mineig_opt mineig_opt],[0 100],'r-','LineWidth',2);
+plot([mineig_opt mineig_opt],[0 50],'r-','LineWidth',2);
+xlabel('\lambda_{min}(W_c)');
+ylabel('count');
 
 
 

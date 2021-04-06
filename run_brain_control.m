@@ -1,3 +1,4 @@
+function run_brain_control
 
 % Local control design and dynamical simulation of brain network
 
@@ -16,9 +17,17 @@ gamma=100;
 
 
 Y=data.Coactivation_matrix;
+
+
+%=================================
+% take part of the network for illustration purpose
+% comment out this block to use the whole network
+n = 50;
+Y=Y(1:n,1:n);
+%================================
+
+
 n=size(Y,1);
-
-
 actnode=1:n;
 
 Q=[100*ones(n,1);1e-8*ones(n,1);ones(n,1)];
@@ -43,7 +52,7 @@ x0_h=[0.1*ones(n,1); zeros(n,1);];
 x0_p=[0.2*ones(n,1); zeros(n,1); zeros(n,1)];
 
 
-dt = 1.e-3; T = 5; N = ceil(T/dt);
+dt = 1.e-3; T = 1; N = ceil(T/dt);
 xs_h = zeros(N+1,2*n);
 xs_p = zeros(N+1,3*n);
 xs_pc = zeros(N+1,3*n);
@@ -104,6 +113,7 @@ plot(ts,xs_p(:,plot_num)); title('\delta (radians)'); hold on;
 subplot(2,1,2);
 plot(ts,xs_p(:,n+plot_num)/(2*pi)); title('\omega (Hz)'); hold on;
 
+end
 
 %% ODE solvers
 
