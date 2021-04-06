@@ -97,6 +97,7 @@ plot(ts,xs_p(:,plot_num)); hold on;
 plot(ts,xs_pc(:,plot_num)); hold on;
 ylabel('x (mV)');
 xlabel('time (s)');
+legend('healthy','pathological','treated');
 
 end
 
