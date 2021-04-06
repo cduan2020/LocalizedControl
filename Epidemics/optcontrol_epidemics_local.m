@@ -51,7 +51,7 @@ end
 k=cell(nc,1);
 parfor i=1:nc
     k{i}=DesignLocalContrl(AA{i},BB{i},QQ{i},RR{i},Cset_aug0{i},Cset_aug{i},bloc{i},2*ng);
-        disp(['local_controller_' num2str(i)]);
+        %disp(['local_controller_' num2str(i)]);
 end
 Klocal_hor=vertcat(k{:});
 
