@@ -41,7 +41,7 @@ In the power grid control problem, Matpower 6.0 (https://matpower.org/download/)
 
 * `[nlist, dlist] = ucs_geodesic_tau(Wup,i,tau)`: Calculate the information neighborhood of radius tau centered at node i (Algorithm 1). The output nlist is the node list for the information neighborhood, and dlist is the corresponding list of information distances.
 
-* `k=DesignLocalContrl(A,B,Q,R,Cset_aug0,Cset_aug,i,n)`: Design local optimal controller at node i by solving the prejected Riccati equation (subroutine of Algorithm 3).<br/>
+* `k=DesignLocalContrl(A,B,Q,R,Cset_aug0,Cset_aug,i,n)`: Design local optimal controller at node i by solving the projected Riccati equation (subroutine of Algorithm 3).<br/>
 
 * `averge_neighborhood_rate = average_k_rate(normA,k)`: Calculate the average kth neighbor reduction rate of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.<br/>
 
