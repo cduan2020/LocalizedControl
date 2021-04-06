@@ -25,9 +25,9 @@ In the power grid control example (see below), Matpower 6.0 (https://matpower.or
 
 * `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid. The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files.
 
-* `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files.
+* `run_epidemic_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the epidemics spreading over the global airline transportation network. The folder `Epidemics` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox.
 
-* `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files.
+* `run_brain_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the whole brain network. The folder `Brainnet` contains supporting code and data files. This script uses MATLAB Parallel Computing Toolbox.
 
 **Utility functions:**
 
