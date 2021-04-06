@@ -21,7 +21,7 @@ In the power grid control example (see below), Matpower 6.0 (https://matpower.or
 
 * `driverplacement.m` runs the gradient-based greedy algorithm for driver placement (Algorithm 2) on a Barabási–Albert (BA) random network with Laplacian dynamics.
 
-* `run_kuromoto_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files.
+* `run_kuramoto_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on the network of Kuramoto oscillators. The folder `Kuramoto` contains supporting code and data files.
 
 * `run_power_control.m` runs the local control design alogorithm (Algorithm 3) and dynamical simulations on a synthetic Texas power grid. The code requires Matpower 6.0 to be installed on the MATLAB search path. The folder `Power grid` contains supporting code and data files.
 
