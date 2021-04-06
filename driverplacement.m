@@ -141,7 +141,7 @@ end
 figure(1);
 histogram(mineig_vec);
 hold on;
-plot([mineig_opt mineig_opt],[0 100],'r-','LineWidth',3);
+plot([mineig_opt mineig_opt],[0 100],'r-','LineWidth',2);
 
 
 
