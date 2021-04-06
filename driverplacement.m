@@ -126,7 +126,7 @@ mineig_opt = min(eig(Wc))
 
 
 % Benchmark against random placement
-mineig_vec = zeros(1,1000);
+mineig_vec = zeros(1,100);
 
 for kk=1:length(mineig_vec)
     kk
