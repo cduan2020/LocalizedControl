@@ -42,7 +42,7 @@ The power grid control example requires Matpower 6.0 (https://matpower.org/downl
 
 * `averge_neighborhood_rate = average_k_rate(normA,k)` calculates the average `k`th neighbor reduction rate of the system coupling matrix A, i.e., `normA(i,j) = norm(A_{ij})`.
 
-* `PriorityQueue.m` provides the priority queue data structure used in the USC algorithm (Algorithm 1).
+* `PriorityQueue.m` provides the priority queue data structure used in the UCS algorithm (Algorithm 1).
 
 * `ba_net.m` generates BA random networks. This code was obtained from: Gregorio Alanis-Lobato (2021). CNM (https://www.mathworks.com/matlabcentral/fileexchange/45734-cnm), MATLAB Central File Exchange.
 
