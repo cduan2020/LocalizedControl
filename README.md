@@ -1,4 +1,4 @@
-# Controlling localized networks
+# Localized algorithms for controlling network systems
 This repository contains MATLAB code for controllability analysis, driver placement, and optimal control design on large-scale dynamical networks using the concept of information neighborhood. The algorithms, underlying theory, and application example details will be described in an upcoming paper, <i>Controlling localized networks</i> by C. Duan, T. Nishikawa, and A. E. Motter.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
