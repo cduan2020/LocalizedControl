@@ -1,6 +1,6 @@
-function Klocal=optcontrol_brain_local(sys,Q,R,L,actnode)
+function Klocal=optcontrol_kura_local(sys,Q,R,L,actnode)
 
-% Local control design for brain network dynamics
+% Local control design for Kuramoto oscillators
 
 ng = size(L,1);
 nc = length(R);
