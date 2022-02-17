@@ -20,7 +20,7 @@ c=full(max(max((HH))));
 
 
 [i,j,v] = find(HH);
-v2d = interp1(y,x,c./v);
+v2d = interp1(y,x,c./v) + 1e-12;
 
 Wup = sparse(i,j,v2d,n,n);
 R = spones(Wup);
