@@ -6,8 +6,8 @@ function Wup=InfoDistanceUpperbdd(dataMat)
 
 % parameters of the sub-exponential function v()
 alpha=1;
-beta=0.9999;
-s=1.0001;
+beta=0.9;
+s=1.2;
 
 n=size(dataMat,1);
 x=0:0.01:30;
